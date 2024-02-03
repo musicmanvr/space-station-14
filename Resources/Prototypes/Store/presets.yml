@@ -2,6 +2,7 @@
   id: StorePresetUplink
   storeName: Uplink
   categories:
+  - UplinkLoadouts
   - UplinkWeapons
   - UplinkAmmo
   - UplinkExplosives

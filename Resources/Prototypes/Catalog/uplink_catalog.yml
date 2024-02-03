@@ -1,4 +1,17 @@
 # TODO: make more categories
+
+# Loadouts
+
+- type: listing
+  id: UplinkLoadoutAssault
+  name: uplink-loadout-assault-name
+  description: uplink-loadout-assault-desc
+  productEntity: WeaponPistolViper
+  cost:
+    Telecrystal: 3
+  categories:
+  - UplinkWeapons
+
 # Guns
 
 - type: listing
@@ -525,7 +538,7 @@
   description: uplink-binary-translator-key-desc
   icon: { sprite: /Textures/Objects/Devices/encryption_keys.rsi, state: rd_label }
   productEntity: EncryptionKeyBinary
-  cost: 
+  cost:
     Telecrystal: 1
 
   categories:

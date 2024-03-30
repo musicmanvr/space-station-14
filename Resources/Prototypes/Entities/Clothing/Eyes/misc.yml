@@ -44,8 +44,8 @@
 # Refer to existing thermal optics for this later
 - type: entity
   parent: ClothingEyesBase
-  id: ClothingEyesMonocle
-  name: monocle
+  id: ClothingEyesThermonocle
+  name: Thermonocle
   description: Vision-correcting thermal lens for the haphazard engineer.
   components:
   - type: Sprite

@@ -409,3 +409,31 @@
     fiberMaterial: fibers-rubber
     fiberColor: fibers-yellow
   - type: FingerprintMask
+
+# Watches, watches that don't tell time (yet)
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsWatch
+  name: watch
+  description: A cosmetic watch, you know, for wearing.
+  components:
+  - type: Sprite
+    sprite: Clothing/Hands/Watches/watch.rsi
+  - type: Clothing
+    sprite: Clothing/Hands/Watches/watch.rsi
+  - type: StaticPrice
+    price: 200
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsWatchGold
+  name: gold watch
+  description: A watch made out of pure 24 carat gold, beware of thieves!
+  components:
+  - type: Sprite
+    sprite: Clothing/Hands/Watches/gold_watch.rsi
+  - type: Clothing
+    sprite: Clothing/Hands/Watches/gold_watch.rsi
+  - type: StaticPrice
+    price: 500

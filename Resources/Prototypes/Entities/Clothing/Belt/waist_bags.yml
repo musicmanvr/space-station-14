@@ -12,6 +12,36 @@
     grid:
     - 0,0,3,1
 
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: ClothingBeltStoragePurse
+  name: leather purse
+  description: A purse for carrying makeup and instruments of torment.
+  components:
+  - type: Sprite
+    sprite: Clothing/Belt/purse.rsi
+    state: icon
+  - type: Clothing
+    sprite: Clothing/Belt/purse.rsi
+  - type: Storage
+    grid:
+    - 0,0,2,1
+
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: ClothingBeltStorageLuxuryPurse
+  name: luxury purse
+  description: A stunning designer purse in luxurious royal purple.
+  components:
+  - type: Sprite
+    sprite: Clothing/Belt/purse.rsi
+    state: luxury
+  - type: Clothing
+    sprite: Clothing/Belt/purse.rsi
+  - type: Storage
+    grid:
+    - 0,0,2,1
+
 #Colorization on worn items doesn't work. If this ever gets fixed, you can duplicate this entry and change the color on the sprite to add color variants.
 #- type: entity
 #  parent: ClothingBeltStorageWaistbag

@@ -188,6 +188,25 @@
   - type: EyeProtection
     protectionTime: 5
 
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesAviators
+  name: aviators
+  description: A handsome pair of designer aviation glasses.
+  components:
+  - type: Sprite
+    sprite: Clothing/Eyes/Glasses/aviators.rsi
+  - type: Clothing
+    sprite: Clothing/Eyes/Glasses/aviators.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+  - type: IdentityBlocker
+    coverage: EYES
+  - type: FlashImmunity
+  - type: EyeProtection
+    protectionTime: 5
+
 #Make a scanner category when these actually function and we get the trayson
 - type: entity
   parent: ClothingEyesBase

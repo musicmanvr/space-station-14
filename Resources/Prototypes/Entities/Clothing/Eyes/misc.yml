@@ -26,3 +26,35 @@
     graph: Blindfold
     node: blindfold
   - type: FlashImmunity
+
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesMonocle
+  name: monocle
+  description: Vision-correcting eyepiece for the distinguished gentleman.
+  components:
+  - type: Sprite
+    sprite: Clothing/Eyes/Misc/monocle.rsi
+  - type: Clothing
+    sprite: Clothing/Eyes/Misc/monocle.rsi
+  - type: EyeProtection
+    protectionTime: 5
+  - type: VisionCorrection # Monocles are vision correcting, after all.
+
+# Refer to existing thermal optics for this later
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesMonocle
+  name: monocle
+  description: Vision-correcting thermal lens for the haphazard engineer.
+  components:
+  - type: Sprite
+    sprite: Clothing/Eyes/Misc/thermonocle.rsi
+  - type: Clothing
+    sprite: Clothing/Eyes/Misc/thermonocle.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Heat: 0.95
+  - type: GroupExamine
+  - type: VisionCorrection

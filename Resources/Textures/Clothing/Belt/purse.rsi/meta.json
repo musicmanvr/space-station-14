@@ -11,6 +11,9 @@
       "name": "icon"
     },
     {
+        "name": "luxury"
+    },
+    {
       "name": "equipped-BELT",
       "directions": 4
     }

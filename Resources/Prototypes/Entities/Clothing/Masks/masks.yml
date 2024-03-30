@@ -599,3 +599,21 @@
   - type: EyeProtection
   - type: BreathMask
   - type: IdentityBlocker
+
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskMasquerade
+  name: masquerade mask
+  description: Dance the night away under the stars.
+  components:
+  - type: Sprite
+    sprite: Clothing/Mask/masquerade.rsi
+  - type: Clothing
+    sprite: Clothing/Mask/masquerade.rsi
+  - type: Item
+    storedRotation: -90
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+  - type: IdentityBlocker # who is this star-crossed lover i see?
+    coverage: EYES

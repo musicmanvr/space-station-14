@@ -21,7 +21,7 @@
       interfaces:
         - key: enum.ChameleonUiKey.Key
           type: ChameleonBoundUserInterface
- 
+
 - type: entity
   parent: ClothingHandsChameleon
   id: ClothingHandsChameleonThief
@@ -30,3 +30,45 @@
   - type: Thieving
     stripTimeReduction: 2
     stealthy: true
+
+# Watches, watches that don't tell time (yet)
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsWatch
+  name: watch
+  description: A cosmetic watch to not tell time.
+  components:
+  - type: Sprite
+    sprite: Clothing/Hands/Watches/watch.rsi
+  - type: Clothing
+    sprite: Clothing/Hands/Watches/watch.rsi
+  - type: Item
+    shape:
+    - 0,0,1,0
+    storedOffset: 0,-2
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 1
+  - type: StaticPrice
+    price: 50
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsWatchGold
+  name: gold watch
+  description: A watch made out of pure 24 carat gold, beware of thieves!
+  components:
+  - type: Sprite
+    sprite: Clothing/Hands/Watches/gold_watch.rsi
+  - type: Clothing
+    sprite: Clothing/Hands/Watches/gold_watch.rsi
+  - type: Item
+    shape:
+    - 0,0,1,0
+    storedOffset: 0,-2
+  - type: PhysicalComposition
+    materialComposition:
+      Gold: 1
+  - type: StaticPrice
+    price: 500
+

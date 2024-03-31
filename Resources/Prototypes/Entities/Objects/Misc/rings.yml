@@ -1,0 +1,14 @@
+- type: entity
+  parent: BaseItem
+  id: DiamondRing
+  name: diamond ring
+  description: A luxurious diamond ring for the beautiful woman in your life.
+  components:
+  - type: Cash
+  - type: Item
+    shape:
+    - 0,0,0,0
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      Diamond: 1

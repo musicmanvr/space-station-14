@@ -1,0 +1,13 @@
+- type: entity
+  parent: BaseStorageItem
+  id: BaseStorageWaller
+  name: luxury wallet
+  description: A rich wallet for your rich money.
+  components:
+  - type: Sprite
+    sprite: Objects/Storage/wallets.rsi
+  - type: Clothing
+    sprite: Objects/Storage/wallets.rsi
+  - type: Storage
+    grid:
+    - 0,0,1,1

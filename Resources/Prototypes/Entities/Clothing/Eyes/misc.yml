@@ -45,7 +45,7 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesThermonocle
-  name: Thermonocle
+  name: thermonocle
   description: Vision-correcting thermal lens for the haphazard engineer.
   components:
   - type: Sprite
